@@ -26,3 +26,12 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### Todos
+-add passanger cycles on stations<br />
+-think about trains cycle next step simulation and lock on crash report (to prevent all possible crashes)<br />
+-add trains movement animation<br />
+-add options values strict validation<br />
+-think about possible issues data fetching in context and possibility of replacement with redux<br />
+(I hadn't used Redux because Context is newer and more interesting for me)<br />
+-add more tests
