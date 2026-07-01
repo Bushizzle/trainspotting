@@ -7,20 +7,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Scripts
 
 In the project directory, you can run:
-### `yarn start`
+### `npm start`
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `npm test`
 Launches the test runner in the interactive watch mode
 
-### `yarn lint`
-Launches pretty tough linter, you can't commit or push without passing it
+### `npm run lint`
+Runs ESLint (flat config): correctness, React / React Hooks, and jsx-a11y accessibility checks. A husky pre-commit hook runs this automatically, so you can't commit without passing it.
 
-### `yarn build`
+### `npm run build`
 Builds the app for production to the `build` folder.<br />o
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
